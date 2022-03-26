@@ -8,7 +8,6 @@ body {
 }
 
 h1 {
-  text-align: center;
   font-size: 3em;
   font-weight: 600;
   letter-spacing: 2px;
@@ -17,7 +16,6 @@ h1 {
 
 h2 {
   width: 100%;
-  text-align: left;
   font-size: 30px;
   font-weight: 600;
   margin-top: 20px;
@@ -26,7 +24,6 @@ h2 {
 
 h3 {
   width: 100%;
-  text-align: left;
   font-size: 30px;
   font-weight: 600;
   color: white;
@@ -74,11 +71,12 @@ a {
 }
 
 .header-btn {
-  display: inline;
-  font-size: 0.5em;
+  font-size: 0.6em;
+  vertical-align: middle;
   color: white;
   background: none;
   border: none;
+  text-decoration: none;
   margin: 0;
   padding: 0;
   transition: 0.2s;
@@ -87,16 +85,18 @@ a {
   outline: none;
 }
 .header {
-  margin-top: 15px;
   text-align: center;
+  width: 100%;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .content-toggle {
   justify-content: center;
   font-size: 0.5em;
-  background:white;
-  border:none;
-  margin:0;
+  background: white;
+  border: none;
+  margin: 0;
   padding-top:3px;
 }
 .content-block {
@@ -107,7 +107,7 @@ a {
 }
 
 .paper {
-  color:rgba(5, 5, 5, 1);
+  color: rgba(5, 5, 5, 1);
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 15px;

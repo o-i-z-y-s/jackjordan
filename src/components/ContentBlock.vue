@@ -2,7 +2,11 @@
   <div class="container-fluid" style="margin-top: 10px;">
     <div class="container">
       <div class="row" id="border-row">
-        <h3 class="header">{{ header }} <button class="header-btn" :style="arrowStyle" @click="toggleShown">&#x25BC;</button></h3>
+        <a class="header" @click="toggleShown">
+          <h3>{{ header }}
+            <button class="header-btn" :style="arrowStyle">&#x25BC;</button>
+          </h3>
+        </a>
         <div class="col">
           <div ref="contentBlock" class="content-block" :style="contentStyle" >
             <slot name="preamble" />
