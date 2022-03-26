@@ -2,7 +2,7 @@ body {
   font-size: 1.1em;
   color: white;
   min-height: 100vh;
-  max-width: 100%;
+  width: 100vw;
   overflow-x: hidden;
   height: auto;
 }

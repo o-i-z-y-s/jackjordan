@@ -154,7 +154,7 @@ export default {
   width: 150px;
   z-index: 5;
   right: 2%;
-  top: 0%;
+  top: 1%;
 }
 #all-content {
   position: relative;

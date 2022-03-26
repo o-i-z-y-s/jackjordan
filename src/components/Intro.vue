@@ -164,6 +164,7 @@
     }
     #headline {
       font-size: 1.2em;
+      margin-top: 0px;
     }
   }
   @media (min-width: 320px) and (max-width: 419px) {
@@ -184,6 +185,7 @@
     }
     #itsme {
       font-size: 2.75em;
+      margin-top: -10px;
       padding-bottom: 6px;
     }
     #headline {
@@ -195,7 +197,7 @@
       margin-bottom: 1em;
     }
     #greeting {
-      font-size: 1.6em;
+      font-size: 1.5em;
     }
     #itsme {
       font-size: 2.75em;
@@ -209,18 +211,18 @@
     }
   }
   @media (max-height: 349px) {
-    #intro-wrapper {
-      margin-top: -0.5em;
-    } 
+    p {
+      margin-bottom: 0.25em;
+    }
     .icon-row {
-      margin-top: -0.75em;
+      margin-bottom: 0.25em;
     }
     #greeting {
-      font-size: 1.5em;
+      font-size: 1.2em;
     }
     #itsme {
       font-size: 2.5em;
-      padding-bottom: 6px;
+      padding-bottom: 0px;
     }
     #headline {
       font-size: 1.1em;
