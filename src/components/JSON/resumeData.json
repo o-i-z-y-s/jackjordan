@@ -2,21 +2,21 @@
   "skillsData": {
     "1": {
       "pl": {
-        "title":"Programming Languages",
+        "title": "Programming Languages",
         "skills": [["Python",4],["JavaScript",3],["HTML/CSS",3],["Java",3],["Swift",2],["PHP",1],["C#",1]]
       },
       "ft": {
-        "title":"Frameworks and Tools",
+        "title": "Frameworks and Tools",
         "skills": [["TestComplete",5],["Selenium",4],["Vue.js",3],["REST APIs",3],["SwiftUI",3],["Redis",2],["AWS",1]]
       }
     },
     "2": {
       "etc": {
-        "title":"Related Skills",
+        "title": "Related Skills",
         "skills": [["Technical Writing",4],["Automated QA",4],["Test Planning",3],["Team Management",3]]
       },
       "sl": {
-        "title":"Spoken Languages",
+        "title": "Spoken Languages",
         "skills": [["English",5],["German",4],["Japanese",3],["Spanish",1]]
       }
     }
@@ -30,7 +30,7 @@
         "technologies": ["Python","JavaScript","Vue.js","HTML/CSS","PHP","TestComplete","Selenium","Redis","Batch","Confluence"],
         "roles": {
           "webswe": {
-            "title":"Software Engineer, Web",
+            "title": "Software Engineer, Web",
             "dates": "(September 2021 - Present)",
             "desc": [
               "Develop frontend and backend features and improvements for web applications using Vue.js, JavaScript, Redis, PHP, and SQL.",
@@ -39,7 +39,7 @@
             ]
           },
           "automationswe": {
-            "title":"Software Engineer, Automation",
+            "title": "Software Engineer, Automation",
             "dates": "(August 2020 - September 2021)",
             "desc": [
               "Fully automated the UI regression tests of our primary web application using Python, TestComplete, and Selenium.",
@@ -49,7 +49,7 @@
             ]
           },
           "ste": {
-            "title":"Software Test Automation Engineer",
+            "title": "Software Test Automation Engineer",
             "dates": "(August 2019 - August 2020)",
             "desc": [
               "Promoted from Systems Analyst for prototyping our first automated regression tests, kickstarting a new team.",
@@ -58,7 +58,7 @@
             ]
           },
           "satw": {
-            "title":"Systems Analyst",
+            "title": "Systems Analyst",
             "dates": "(July 2018 - August 2020)",
             "desc": [
               "Designed and developed a standalone Python tool with GUI controls to automate our Confluence document export process.",
@@ -75,7 +75,7 @@
         "technologies": null,
         "roles": {
           "st": {
-            "title":"Software Application Tester",
+            "title": "Software Application Tester",
             "dates": "(January 2017 - June 2018)",
             "desc": [
               "Tested web-based logistics applications, tracked requirements, and wrote test suites, test cases, and bug reports.",
@@ -92,7 +92,7 @@
         "location": "Remote",
         "roles": {
           "editor": {
-            "title":"Localization Editor",
+            "title": "Localization Editor",
             "dates": "(July 2019 - Present)",
             "desc": [
               "Work closely with translators to produce localized novels and manga for digital and physical publication, modifying, rewriting, or retranslating content where appropriate.",
@@ -100,7 +100,7 @@
             ]
           },
           "proofreader": {
-            "title":"Proofreader",
+            "title": "Proofreader",
             "dates": "(January 2019 - July 2019)",
             "desc": [
               "Proofread novels and manga from other translation teams on an as-needed basis."
@@ -113,10 +113,10 @@
         "location": "Remote",
         "roles": {
           "editor": {
-            "title":"Editor & Backup Translator",
+            "title": "Editor & Backup Translator",
             "dates": "(August 2021 - Present)",
             "desc": [
-              "Currently releasing 25 manga volumes previously edited while volunteering .",
+              "Currently releasing 25 manga volumes previously edited while volunteering.",
               "Acting as backup translator for current weekly chapters."
             ]
           }
@@ -127,7 +127,7 @@
         "location": "Remote",
         "roles": {
           "tlpr": {
-            "title":"Translator & Editor",
+            "title": "Translator & Editor",
             "dates": "(April 2017 - December 2018)",
             "desc": [
               "Check the accuracy of English translations by comparing them against their original texts, adjusting characterization and phrasing as needed.",
@@ -144,7 +144,7 @@
         "technologies": null,
         "roles": {
           "interpreter": {
-            "title":"Interpreter",
+            "title": "Interpreter",
             "dates": "(September 2016)",
             "desc": [
               "Acted as a private interpreter for Ernst Law Group during depositions with German legal teams.",

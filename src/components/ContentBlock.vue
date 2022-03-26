@@ -97,7 +97,6 @@
     margin-bottom: 0px;
   }
   #border-row {
-    border: 2px solid white;
     border-radius: 10px;
   }
 </style>
