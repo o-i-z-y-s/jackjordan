@@ -61,4 +61,10 @@ import ContentBlock from './ContentBlock.vue';
       font-size: 1em;
     }
   }
+  @media (max-height: 460px) {
+    iframe {
+      width: 500px;
+      height: 200px;
+    }
+  }
 </style>

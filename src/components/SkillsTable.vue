@@ -90,8 +90,8 @@
   @media (max-width: 768px) {
     .skill {
       text-align: left;
-      padding-left: 5px;
-      font-size: 0.8em;
+      padding-left: 10px;
+      font-size: 0.9em;
     }
     .rating {
       font-size: 0.9em;
@@ -103,12 +103,16 @@
     }
     .skill {
       text-align: center;
-      font-size: 0.7em;
       padding: 0;
     }
     .rating {
       text-align: center;
-      font-size: 0.8em;
+    }
+  }
+
+  @media (max-height: 460px) {
+    .subpaper {
+      padding: 8px;
     }
   }
 </style>

@@ -122,4 +122,10 @@
   #credit p {
     font-style: italic;
   }
+
+  @media (max-width: 565px) {
+    #credit {
+      margin-top: 0px;
+    }
+  }
 </style>

@@ -154,7 +154,7 @@ export default {
   text-align: center;
   width: 150px;
   z-index: 5;
-  right: 0%;
+  right: 2%;
   top: 0%;
 }
 #theme-text {
@@ -165,6 +165,7 @@ export default {
 #all-content {
   position: relative;
   min-height: 100vh;
+  min-width: 100vw;
 }
 #intro {
   position: relative;
@@ -179,10 +180,11 @@ export default {
   background: var(--surfaceColor);
 }
 #main-content {
+  position: relative;
   padding-top: 11vh;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  padding-bottom: 10vh;
+  padding-bottom: 8vh;
 }
 #main-content > * > * {
   position: relative;
@@ -195,5 +197,11 @@ export default {
 }
 #border-row {
   background: var(--rowColor);
+}
+
+@media (max-height: 460px) {
+  p {
+    padding-bottom: 0.2em;
+  }
 }
 </style>
