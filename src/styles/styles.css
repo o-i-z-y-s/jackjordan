@@ -1,0 +1,228 @@
+body {
+  font-size: 1.1em;
+  color: white;
+  min-height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: 0;
+}
+
+h2 {
+  width: 100%;
+  text-align: left;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  width: 100%;
+  text-align: left;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+h4 {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #1a1a1a; 
+  margin-top: 0;
+  margin-bottom: 7px;
+  padding-bottom: 0px;
+}
+
+p {
+  color: white;
+}
+a {
+  color: rgb(104, 255, 255);
+  cursor: pointer;
+}
+.link:hover {
+  text-decoration: none;
+  filter: invert(50%);
+  transition: 0.25s;
+}
+.link-wrapper {
+  display: inline;
+  padding: 10px;
+}
+.link-wrapper:hover {
+  text-decoration: none;
+  filter: invert(50%);
+  transition: 0.25s;
+}
+
+.icon-row img {
+  vertical-align: middle;
+  filter: invert(100%);
+  margin-top: 0.3em;
+  width: 25px;
+  height: 25px;
+}
+
+.header-btn {
+  display: inline;
+  font-size: 0.5em;
+  color: white;
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  transition: 0.2s;
+}
+.header-btn:focus {
+  outline: none;
+}
+.header {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.content-toggle {
+  justify-content: center;
+  font-size: 0.5em;
+  background:white;
+  border:none;
+  margin:0;
+  padding-top:3px;
+}
+.content-block {
+  transition: 0.25s; 
+}
+#experience .content-block {
+  transition: 0.45s;
+}
+
+.paper {
+  color:rgba(5, 5, 5, 1);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+  background-color: rgba(240, 240, 240, 0.8);
+}
+.subpaper {
+  padding: 5px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  background-color: rgba(240, 240, 240, 0.8);
+}
+
+.technologies {
+  font-size: 0.8em;
+  font-weight: 600;
+}
+.technologies li {
+  color: #FFF;
+  padding: 3px;
+  padding-left: 5px; padding-right: 5px;
+  display: inline-block;
+  border: #1b1919;
+  border-radius: 3px;
+  background-color: #0e0e0e;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.workplace, .school {
+  font-weight: 600;
+  font-size: 1em;
+}
+.workplace-extra, .program-extra {
+  font-size: 0.8em;
+  font-weight: 400;
+  display: inline;
+}
+
+.location {
+  font-size: 0.8em;
+  margin-bottom: 5px;
+}
+
+.job, .program {
+  font-size: 0.9em;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-weight: 600;
+}
+
+.desc {
+  font-size: 0.9em;
+  margin-bottom: 5px;
+}
+.desc li {
+  margin-left: 15px;
+}
+
+.dates {
+  font-size: 0.9em;
+  font-style: italic;
+  margin-bottom: 2px;
+}
+
+#buttons-row {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 15px;
+}
+#buttons-row button {
+  margin: auto;
+  border: 2px solid lightgray;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  background: rgba(1, 0, 70, 0.3);
+  -moz-box-shadow: 0px 2px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 0px 2px 3px rgba(0,0,0,.5);
+  box-shadow: 0px 2px 3px rgba(0,0,0,.5);
+}
+#buttons-row button:hover, #buttons-row button:hover {
+  background: rgba(1, 0, 70, 0.0);
+  transition: 0.3s;
+}
+
+
+
+/* Other window/screen sizes */
+@media (max-width: 768px) {
+  #greeting {
+    font-size: 1.25em;
+  }
+
+  #itsme {
+    font-size: 3em;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  #intro p {
+    font-size: 0.9em;
+    margin-top: -2px;
+    margin-bottom: -2px;
+  }
+
+  p {
+    margin-bottom: 3px;
+  }
+  footer p {
+    margin: 0;
+  }
+}
+
+@media (max-width: 565px) {
+  #credit {
+    margin-top: 0px;
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "skillsData": {
+    "1": {
+      "pl": {
+        "title":"Programming Languages",
+        "skills": [["Python",4],["JavaScript",3],["HTML/CSS",3],["Java",3],["Swift",2],["PHP",1],["C#",1]]
+      },
+      "ft": {
+        "title":"Frameworks and Tools",
+        "skills": [["TestComplete",5],["Selenium",4],["Vue.js",3],["REST APIs",3],["SwiftUI",3],["Redis",2],["AWS",1]]
+      }
+    },
+    "2": {
+      "etc": {
+        "title":"Related Skills",
+        "skills": [["Technical Writing",4],["Automated QA",4],["Test Planning",3],["Team Management",3]]
+      },
+      "sl": {
+        "title":"Spoken Languages",
+        "skills": [["English",5],["German",4],["Japanese",3],["Spanish",1]]
+      }
+    }
+  },
+  "experienceData": {
+    "software": {
+      "CACI": {
+        "name": "CACI",
+        "extraName": "Space Operations",
+        "location": "Santa Maria, CA",
+        "technologies": ["Python","JavaScript","Vue.js","HTML/CSS","PHP","TestComplete","Selenium","Redis","Batch","Confluence"],
+        "roles": {
+          "webswe": {
+            "title":"Software Engineer, Web",
+            "dates": "(September 2021 - Present)",
+            "desc": [
+              "Develop frontend and backend features and improvements for web applications using Vue.js, JavaScript, Redis, PHP, and SQL.",
+              "Optimized our user database frontend and API by rewriting Vue components, data flows, and PHP legacy code.",
+              "Create JavaScript processes to observe and transform data in Redis for consumption by other components."
+            ]
+          },
+          "automationswe": {
+            "title":"Software Engineer, Automation",
+            "dates": "(August 2020 - September 2021)",
+            "desc": [
+              "Fully automated the UI regression tests of our primary web application using Python, TestComplete, and Selenium.",
+              "Created automation scripts for Windows applications and processes using Python and Batch scripting.",
+              "Modernized the main UI of a Vue application in a team of three, handling the layout and all CSS styles.",
+              "Supported team as acting lead during a period of transition between managers (January to July 2021)."
+            ]
+          },
+          "ste": {
+            "title":"Software Test Automation Engineer",
+            "dates": "(August 2019 - August 2020)",
+            "desc": [
+              "Promoted from Systems Analyst for prototyping our first automated regression tests, kickstarting a new team.",
+              "Wrote automated UI and scenario tests within a custom framework using Python and Selenium.",
+              "Evaluated off-the-shelf test automation frameworks, successfully presented a build-vs-buy case to senior management, and migrated existing test functionality, reducing our automation timeline by one year."
+            ]
+          },
+          "satw": {
+            "title":"Systems Analyst",
+            "dates": "(July 2018 - August 2020)",
+            "desc": [
+              "Designed and developed a standalone Python tool with GUI controls to automate our Confluence document export process.",
+              "Wrote user guides and help system content, tested new builds, and submitted bug reports and improvements.",
+              "Wrote multiple sections of our style guide (chiefly voice and tone) which are still used for all documentation."
+            ]
+          }
+        }
+      },
+      "Boeing": {
+        "name": "Boeing",
+        "extraName": "(formerly Tapestry Solutions)",
+        "location": "San Luis Obispo, CA",
+        "technologies": null,
+        "roles": {
+          "st": {
+            "title":"Software Application Tester",
+            "dates": "(January 2017 - June 2018)",
+            "desc": [
+              "Tested web-based logistics applications, tracked requirements, and wrote test suites, test cases, and bug reports.",
+              "Acted as lead tester and issue tracker for a major functional area of our application during a redesign from Flash to HTML5.",
+              "Wrote reference docs, training material, and user guides for developers, testers, and customers."
+            ]
+          }
+        }
+      }
+    },
+    "localization": {
+      "J-Novel Club": {
+        "name": "J-Novel Club",
+        "location": "Remote",
+        "roles": {
+          "editor": {
+            "title":"Localization Editor",
+            "dates": "(July 2019 - Present)",
+            "desc": [
+              "Work closely with translators to produce localized novels and manga for digital and physical publication, modifying, rewriting, or retranslating content where appropriate.",
+              "Promoted to editor as the top pick from the candidate pool of proofreaders."
+            ]
+          },
+          "proofreader": {
+            "title":"Proofreader",
+            "dates": "(January 2019 - July 2019)",
+            "desc": [
+              "Proofread novels and manga from other translation teams on an as-needed basis."
+            ]
+          }
+        }
+      },
+      "Mantra": {
+        "name": "Mantra",
+        "location": "Remote",
+        "roles": {
+          "editor": {
+            "title":"Editor & Backup Translator",
+            "dates": "(August 2021 - Present)",
+            "desc": [
+              "Currently releasing 25 manga volumes previously edited while volunteering .",
+              "Acting as backup translator for current weekly chapters."
+            ]
+          }
+        }
+      },
+      "FanTranslation": {
+        "name": "Volunteering",
+        "location": "Remote",
+        "roles": {
+          "tlpr": {
+            "title":"Translator & Editor",
+            "dates": "(April 2017 - December 2018)",
+            "desc": [
+              "Check the accuracy of English translations by comparing them against their original texts, adjusting characterization and phrasing as needed.",
+              "Translate Japanese to English and work with proofreaders to finalize content.",
+              "Coordinate small teams on multiple projects simultaneously, mentoring other proofreaders and ESL team members."
+            ]
+          }
+        }
+      },
+      "Ernst Law Group": {
+        "name": "Ernst Law Group",
+        "extraName": null,
+        "location": "San Luis Obispo, CA",
+        "technologies": null,
+        "roles": {
+          "interpreter": {
+            "title":"Interpreter",
+            "dates": "(September 2016)",
+            "desc": [
+              "Acted as a private interpreter for Ernst Law Group during depositions with German legal teams.",
+              "Translated technical engineering and manufacturing documents in a high-speed environment."
+            ]
+          }
+        }
+      }
+    }
+  },
+  "educationData": {
+    "ucsb": {
+      "name": "University of California, Santa Barbara",
+      "location": "Santa Barbara, CA",
+      "program": "Bachelor's in Linguistics",
+      "extra": "concentrations in German and Japanese",
+      "desc": "Studied the mixed bag of language, logic, psychology, respiratory anatomy, anthropology, and education theory that is linguistics.",
+      "dates": "September 2013 - March 2016"
+    },
+    "icu": {
+      "name": "International Christian University",
+      "location": "Tokyo, Japan",
+      "program": "UC Education Abroad Program ",
+      "extra": "",
+      "desc": "Took courses in Japanese political science, language policy, sociology, and culture. Completed an academic internship teaching English.",
+      "dates": "August 2015 - November 2015"
+    },
+    "cuesta": {
+      "name": "Cuesta College",
+      "location": "San Luis Obispo, CA",
+      "program": "Software Engineering",
+      "extra": "",
+      "desc": "Took the core computer science series and the AWS Developer Associate course. Studied Java, data structures and algorithms, and object oriented programming.",
+      "dates": "Spring 2020 - Fall 2020"
+    }
+  }
+}
