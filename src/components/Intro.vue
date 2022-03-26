@@ -190,9 +190,9 @@
       font-size: 1.2em;
     }
   }
-  @media (max-height: 379px) {
+  @media (max-height: 430px) {
     .icon-row {
-      margin-top: -0.5em;
+      margin-bottom: 1em;
     }
     #greeting {
       font-size: 1.6em;

@@ -17,7 +17,6 @@
             <img class="icon" src="./assets/moon.png" style="height: 20px; width: 20px;">
           </a>
         </div>
-        <p id="theme-text">Default theme based on local time, but PST skies.<br>...Roughly.</p>
       </div>
       <Intro id="intro" :greeting="greeting" :skyColor="skyColor" :style="'--surfaceColor:' + surfaceColor" />
       <div id="main-content" ref="allContent" :style="oceanColor">
@@ -29,8 +28,8 @@
           <Bubbles id="bubbles" />
         </div>
       </div>
+      <Footer />
     </div>
-    <Footer />
   </div>
 </template>
 
@@ -65,9 +64,9 @@ export default {
       dawnduskSky: 'background: linear-gradient(to bottom, #312678 0%, #d46b08 65%, #fa8c16 85%, #ffa940 95%, #ffc069 150%);',
 
       surfaceColor: '',
-      daySurface: 'linear-gradient(to bottom, #47adfc, transparent 100%);',
-      nightSurface: 'linear-gradient(to bottom, #31375e, transparent 100%);',
-      dawnduskSurface: 'linear-gradient(to bottom, #ad8b00, transparent 100%);',
+      daySurface: 'linear-gradient(to bottom, #47adfc, rgba(71, 173, 252, 0) 100%);',
+      nightSurface: 'linear-gradient(to bottom, #31375e, rgba(49, 55, 94, 0) 100%);',
+      dawnduskSurface: 'linear-gradient(to bottom, #ad8b00, rgba(173, 139, 0, 0) 100%);',
 
       oceanColor: '',
       dayOcean: 'background: linear-gradient(to bottom, #24648f, #0c4e81, #04335c, #001b36);',
@@ -156,11 +155,6 @@ export default {
   z-index: 5;
   right: 2%;
   top: 0%;
-}
-#theme-text {
-  margin-top: 5px;
-  font-size: 0.7em;
-  font-style: italic;
 }
 #all-content {
   position: relative;

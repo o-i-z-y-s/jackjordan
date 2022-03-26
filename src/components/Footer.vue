@@ -28,13 +28,14 @@
     margin-top: -3vh;
     padding: 15px;
     color: white;
-    background-image: url("../assets/seafloor.svg");
-    height: 50px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     font-size: 0.8em;
     font-style: italic;
     text-align: center;
+
+    background-image: url("../assets/seafloor.svg");
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 </style>
