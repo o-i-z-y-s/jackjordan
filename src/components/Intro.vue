@@ -159,6 +159,9 @@
     }
   }
   @media (max-width: 470px) {
+    #greeting {
+      margin-top: -1em;
+    }
     #itsme {
       font-size: 2.75em;
     }
@@ -174,6 +177,9 @@
     #headline {
       font-size: 1.1em;
     }
+    .icon-row {
+      margin-top: 1em;
+    }
   }
 
   @media (max-height: 460px) {
@@ -181,6 +187,7 @@
       max-width: 85%;
     }
     #greeting {
+      margin-top: 1em;
       font-size: 1.7em;
     }
     #itsme {
@@ -194,9 +201,11 @@
   }
   @media (max-height: 430px) {
     .icon-row {
-      margin-bottom: 1em;
+      margin-top: -0.75em;
+      margin-bottom: 0.25em;
     }
     #greeting {
+      margin-top: -0.5em;
       font-size: 1.5em;
     }
     #itsme {
@@ -215,9 +224,11 @@
       margin-bottom: 0.25em;
     }
     .icon-row {
+      margin-top: 0.25em;
       margin-bottom: 0.25em;
     }
     #greeting {
+      margin-top: 0.25em;
       font-size: 1.2em;
     }
     #itsme {

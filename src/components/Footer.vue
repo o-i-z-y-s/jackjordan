@@ -38,4 +38,10 @@
     background-size: cover;
     background-position: center;
   }
+
+  @media (max-width: 460px) {
+    #footer {
+      height: 80px;
+    }
+  }
 </style>

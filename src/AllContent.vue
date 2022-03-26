@@ -111,7 +111,7 @@ export default {
     },
     setGreeting: function() {
       if(this.timeOfDay === "late") {
-        this.greeting = "\"Good evening\" or \"good morning\"? Oh well."
+        this.greeting = "\"Good evening\" or \"good morning\"?"
       }
       else if(this.timeOfDay === "dawn" || this.timeOfDay === "morning") {
         this.greeting = "Good morning!"
