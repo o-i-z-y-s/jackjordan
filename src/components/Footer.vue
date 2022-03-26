@@ -40,7 +40,7 @@
     left: -1vw;
     width: 101vw;
     transform: scaleY(0.5);
-    bottom: -3vh;
+    bottom: -3.5vh;
   }
 
   @media (min-width: 1300px) {
@@ -48,19 +48,19 @@
       bottom: -2vh;
     }
   }
-  @media (max-width: 700px) {
+  @media (min-width: 535px) and (max-width: 650px) {
     #seafloor {
-      bottom: -3.5vh;
+      bottom: -4.5vh;
     }
   }
-  @media (min-width: 507px) and (max-width: 550px) {
+  @media (min-width: 507px) and (max-width: 534px) {
     #seafloor {
-      bottom: -4vh;
+      bottom: -4.5vh;
     }
   }
   @media (max-width: 506px) {
     #seafloor {
-      bottom: -2vh;
+      bottom: -2.25vh;
     }
   }
 </style>
