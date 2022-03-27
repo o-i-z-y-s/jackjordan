@@ -201,7 +201,6 @@
   }
   @media (max-height: 430px) {
     .icon-row {
-      margin-top: -0.75em;
       margin-bottom: 0.25em;
     }
     #greeting {
@@ -224,8 +223,7 @@
       margin-bottom: 0.25em;
     }
     .icon-row {
-      margin-top: 0.25em;
-      margin-bottom: 0.25em;
+      margin-bottom: 1.25em;
     }
     #greeting {
       margin-top: 0.25em;

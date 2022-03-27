@@ -3,7 +3,7 @@
     "1": {
       "pl": {
         "title": "Programming Languages",
-        "skills": [["Python",4],["JavaScript",3],["HTML/CSS",3],["Java",3],["Swift",2],["PHP",1],["C#",1]]
+        "skills": [["Python",4],["JavaScript",3],["HTML/CSS",3],["Java",3],["Swift",2],["PHP",2],["C#",1]]
       },
       "ft": {
         "title": "Frameworks and Tools",
@@ -13,7 +13,7 @@
     "2": {
       "etc": {
         "title": "Related Skills",
-        "skills": [["Technical Writing",4],["Automated QA",4],["Test Planning",3],["Team Management",3]]
+        "skills": [["Technical Writing",4],["Automated QA",4],["Project Management",3],["Team Leadership",3]]
       },
       "sl": {
         "title": "Spoken Languages",
@@ -27,7 +27,7 @@
         "name": "CACI",
         "extraName": "Space Operations",
         "location": "Santa Maria, CA",
-        "technologies": ["Python","JavaScript","Vue.js","HTML/CSS","PHP","TestComplete","Selenium","Redis","Batch","Confluence"],
+        "technologies": ["Python","JavaScript","Vue.js","HTML/CSS","PHP","TestComplete","Selenium","Redis","SQL","Batch","Confluence"],
         "roles": {
           "webswe": {
             "title": "Software Engineer, Web",
@@ -149,6 +149,23 @@
             "desc": [
               "Acted as a private interpreter for Ernst Law Group during depositions with German legal teams.",
               "Translated technical engineering and manufacturing documents in a high-speed environment."
+            ]
+          }
+        }
+      },
+      "inXile Entertainment": {
+        "name": "inXile Entertainment",
+        "extraName": null,
+        "location": "Newport Beach, CA",
+        "technologies": null,
+        "roles": {
+          "localization editor": {
+            "title": "Localization Editor",
+            "dates": "(January 2014 - October 2014)",
+            "desc": [
+              "Proofread, edited, and/or translated over 36,000 lines of text from English to German.",
+              "Moderated an online team of 20 volunteer translators and represented inXile Entertainment in mediating discussions within this group.",
+              "Tested weekly software builds for localization issues and modified text mappings as needed."
             ]
           }
         }

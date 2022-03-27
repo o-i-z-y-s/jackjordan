@@ -163,7 +163,7 @@ export default {
 }
 #intro {
   position: relative;
-  height: 90vh;
+  height: 100vh;
 }
 #intro::after {
   z-index: 1;
