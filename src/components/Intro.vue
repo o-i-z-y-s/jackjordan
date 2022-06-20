@@ -7,7 +7,7 @@
           <div id="intro-wrapper">
             <h2 class="header" id="greeting">{{ this.greeting }}</h2>
             <h1 class="header" id="itsme">I'm&nbsp;Jordan,</h1>
-            <h2 id="headline">a software engineer and localization editor in&nbsp;Southern&nbsp;California.</h2>
+            <h2 id="headline">a software engineer and localization specialist in&nbsp;Southern&nbsp;California.</h2>
             <p id="blurb">Lately I've been using Vue to build frontend interfaces and data flows for web-based space launch display systems, crusading to retire as much legacy code as&nbsp;possible.<br>I also moonlight as an editor of Japanese novels and comics.</p>
             <div class="icon-row">
               <div class="link-wrapper">

@@ -27,7 +27,7 @@
         "name": "CACI",
         "extraName": "Space Operations",
         "location": "Santa Maria, CA",
-        "technologies": ["Python","JavaScript","Vue.js","HTML/CSS","PHP","TestComplete","Selenium","Redis","SQL","Batch","Confluence"],
+        "technologies": ["Python","JavaScript","Vue.js","HTML/CSS","PHP","Java","Express","TestComplete","Selenium","Redis","SQL","Batch"],
         "roles": {
           "webswe": {
             "title": "Software Engineer, Web",
