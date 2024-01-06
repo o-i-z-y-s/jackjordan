@@ -80,6 +80,8 @@
     font-size: 0.9em;
     width: 100%;
     height: 95%;
+    margin-top: 3px;
+    margin-bottom: 3px;
   }
 
   @media (max-width: 980px) {

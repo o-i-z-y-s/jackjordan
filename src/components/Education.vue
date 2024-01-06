@@ -1,5 +1,5 @@
 <template>
-  <content-block header="Education" :updatedHeight="blockHeight">
+  <content-block header="Education" :updatedHeight="blockHeight" @newHeight="onNewHeight">
     <template v-slot:preamble>
       <div id="educationText" ref="educationText">
         
@@ -41,6 +41,9 @@ import EducationTable from './EducationTable.vue'
       handleHeight(newHeight) {
         this.blockHeight = newHeight + this.$refs.educationText.clientHeight;
       },
+      onNewHeight(newHeight) {
+        this.blockHeight = newHeight;
+      }
     }
   }
 </script>

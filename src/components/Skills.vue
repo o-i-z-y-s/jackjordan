@@ -1,7 +1,7 @@
 <template>
-  <content-block header="Skills" :updatedHeight="blockHeight">
+  <content-block header="Skills" :updatedHeight="blockHeight" @newHeight="onNewHeight">
     <template v-slot:preamble>
-      <div id="skillsText" ref="skillsText">A subjective scale where one star indicates basic ability, three means intermediate, and five denotes advanced.</div>
+      <div id="skillsText" class="summary" ref="skillsText">A subjective scale where one star indicates basic ability and five denotes advanced.</div>
     </template>
     <template v-slot:content>
       <skills-table ref="skillsTable" :handleHeight="handleHeight"/>
@@ -38,12 +38,13 @@ import SkillsTable from './SkillsTable.vue'
       handleHeight(newHeight) {
         this.blockHeight = newHeight + this.$refs.skillsText.clientHeight;
       },
+      onNewHeight(newHeight) {
+        this.blockHeight = newHeight;
+      }
     }
   }
 </script>
 
 <style scoped>
-  #skillsText {
-    padding-bottom: 10px;
-  }
+
 </style>

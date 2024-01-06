@@ -3,17 +3,17 @@
     "1": {
       "pl": {
         "title": "Programming Languages",
-        "skills": [["Python",4],["JavaScript",3],["HTML/CSS",3],["Java",3],["Swift",2],["PHP",2],["C#",1]]
+        "skills": [["JavaScript",4],["Python",4],["Java",3],["Swift",2],["PHP",2],["C#",1]]
       },
       "ft": {
         "title": "Frameworks and Tools",
-        "skills": [["TestComplete",5],["Selenium",4],["Vue.js",3],["REST APIs",3],["SwiftUI",3],["Redis",2],["AWS",1]]
+        "skills": [["Vue.js",4],["Redis",4],["TestComplete",4],["Selenium",4],["SwiftUI",3],["AWS",1]]
       }
     },
     "2": {
       "etc": {
         "title": "Related Skills",
-        "skills": [["Technical Writing",4],["Automated QA",4],["Project Management",3],["Team Leadership",3]]
+        "skills": [["Technical Writing",4],["Automated Testing",4],["Project Management",3],["Team Leadership",3]]
       },
       "sl": {
         "title": "Spoken Languages",
@@ -26,26 +26,27 @@
       "CACI": {
         "name": "CACI",
         "extraName": "Space Operations",
-        "location": "Santa Maria, CA",
-        "technologies": ["Python","JavaScript","Vue.js","HTML/CSS","PHP","Java","Express","TestComplete","Selenium","Redis","SQL","Batch"],
+        "location": "Santa Maria, CA / Remote",
+        "technologies": ["JavaScript","Vue.js","Python","HTML/CSS","PHP","Java","Express","TestComplete","Selenium","Redis","SQL","Batch"],
         "roles": {
           "webswe": {
-            "title": "Software Engineer, Web",
+            "title": "Software Engineer, Full Stack",
             "dates": "(September 2021 - Present)",
             "desc": [
-              "Develop frontend and backend features and improvements for web applications using Vue.js, JavaScript, Redis, PHP, and SQL.",
-              "Optimized our user database frontend and API by rewriting Vue components, data flows, and PHP legacy code.",
-              "Create JavaScript processes to observe and transform data in Redis for consumption by other components."
+              "Assumed a lead role on a product at its MVP phase, managing its JIRA, tasking team members, and completely rebuilding the front end from scratch with multiple additional features, such as messaging, user authentication and registration, and hybrid vanilla+SVG rendering.",
+              "Develop frontend and backend features and improvements for web applications using Vue.js, Node.js, and Redis.",
+              "Create JavaScript processes to observe and transform data in Redis for consumption by other components.",
+              "Optimize application performance by rewriting data structures, Vue components, data flows, and legacy code."
             ]
           },
           "automationswe": {
             "title": "Software Engineer, Automation",
             "dates": "(August 2020 - September 2021)",
             "desc": [
+              "Supported team as acting lead during a period of transition between managers (January to July 2021).",
               "Fully automated the UI regression tests of our primary web application using Python, TestComplete, and Selenium.",
               "Created automation scripts for Windows applications and processes using Python and Batch scripting.",
-              "Modernized the main UI of a Vue application in a team of three, handling the layout and all CSS styles.",
-              "Supported team as acting lead during a period of transition between managers (January to July 2021)."
+              "Modernized the main UI of a Vue application in a team of three, handling the layout and all CSS styles."
             ]
           },
           "ste": {
@@ -53,15 +54,15 @@
             "dates": "(August 2019 - August 2020)",
             "desc": [
               "Promoted from Systems Analyst for prototyping our first automated regression tests, kickstarting a new team.",
-              "Wrote automated UI and scenario tests within a custom framework using Python and Selenium.",
-              "Evaluated off-the-shelf test automation frameworks, successfully presented a build-vs-buy case to senior management, and migrated existing test functionality, reducing our automation timeline by one year."
+              "Wrote automated UI and scenario tests using Python and Selenium.",
+              "Evaluated off-the-shelf test automation frameworks, successfully presented a build-vs-buy case to senior management, and migrated over existing test functionality, reducing our project timeline by one year."
             ]
           },
           "satw": {
             "title": "Systems Analyst",
-            "dates": "(July 2018 - August 2020)",
+            "dates": "(July 2018 - August 2019)",
             "desc": [
-              "Designed and developed a standalone Python tool with GUI controls to automate our Confluence document export process.",
+              "Designed and developed a standalone Python tool with GUI controls to automate our Confluence document export process, reducing a four hour task to a single click.",
               "Wrote user guides and help system content, tested new builds, and submitted bug reports and improvements.",
               "Wrote multiple sections of our style guide (chiefly voice and tone) which are still used for all documentation."
             ]
@@ -87,6 +88,32 @@
       }
     },
     "localization": {
+      "Aksys Games": {
+        "name": "Aksys Games",
+        "location": "Remote",
+        "roles": {
+          "editor": {
+            "title": "Localization Editor",
+            "dates": "(August 2022 - January 2023)",
+            "desc": [
+              "Worked closely with a translator to localize around half of a Nintendo Switch visual novel, amounting to over 400,000 Japanese characters."
+            ]
+          }
+        }
+      },
+      "Kaiten Books": {
+        "name": "Kaiten Books",
+        "location": "Remote",
+        "roles": {
+          "editor": {
+            "title": "Localization Editor",
+            "dates": "(July 2022 - Present)",
+            "desc": [
+              "Edit translated comedy manga for digital and physical publication with a strong bias for puns and alliteration."
+            ]
+          }
+        }
+      },
       "J-Novel Club": {
         "name": "J-Novel Club",
         "location": "Remote",
@@ -113,11 +140,11 @@
         "location": "Remote",
         "roles": {
           "editor": {
-            "title": "Editor & Backup Translator",
+            "title": "Localization Editor & Backup Translator",
             "dates": "(August 2021 - Present)",
             "desc": [
-              "Currently releasing 25 manga volumes previously edited while volunteering.",
-              "Acting as backup translator for current weekly chapters."
+              "Editing the 25 volume backlog of a Shogakukan manga series.",
+              "Acting as backup translator for currently-releasing weekly chapters."
             ]
           }
         }
@@ -130,9 +157,9 @@
             "title": "Translator & Editor",
             "dates": "(April 2017 - December 2018)",
             "desc": [
-              "Check the accuracy of English translations by comparing them against their original texts, adjusting characterization and phrasing as needed.",
-              "Translate Japanese to English and work with proofreaders to finalize content.",
-              "Coordinate small teams on multiple projects simultaneously, mentoring other proofreaders and ESL team members."
+              "Checked the accuracy of English translations by comparing them against their original texts, adjusting characterization and phrasing as needed.",
+              "Translated Japanese to English and work with proofreaders to finalize content.",
+              "Coordinated small teams on multiple projects simultaneously, mentoring other proofreaders and ESL team members."
             ]
           }
         }

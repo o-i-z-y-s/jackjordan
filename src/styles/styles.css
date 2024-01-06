@@ -1,4 +1,9 @@
+:root {
+  --pulldownColor: white;
+}
+
 body {
+  background-color: var(--pulldownColor);
   font-family: 'Montserrat', sans-serif;
   font-size: 1.1em;
   font-weight: 500;
@@ -108,18 +113,24 @@ a {
   transition: 0.45s;
 }
 
+.summary {
+  padding: 0 3rem 1rem 3rem;
+  text-align: center;
+}
+
 .paper {
   color: rgba(5, 5, 5, 1);
   padding-top: 5px;
   padding-bottom: 5px;
+  margin-bottom: 8px;
   border-radius: 15px;
   background-color: rgba(240, 240, 240, 0.8);
   /* font-family: 'Roboto', sans-serif; */
 }
 .subpaper {
   padding: 10px;
-  margin-top: 3px;
-  margin-bottom: 3px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   background-color: rgba(240, 240, 240, 0.3);
 }
 

@@ -1,6 +1,6 @@
 <template>
   <div ref="softwareTable">
-    <div class="container" v-for="company in softwareExperienceData" :key="company.id">
+    <div class="container" v-for="company in softwareExperienceData" :key="company.id" ref="tableItems">
       <div class="row paper">
 
         <div class="col-sm-4 col-lg-3">
@@ -63,6 +63,12 @@
 
     updated: function() {
       this.updateHeight();
+    },
+
+    created () { 
+      window.addEventListener('load', () => {
+        this.updateHeight();
+      });
     },
 
     methods: {

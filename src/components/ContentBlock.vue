@@ -77,7 +77,7 @@
         }
       },
       handleHeight(newHeight) {
-        this.updatedHeight = newHeight;
+        this.$emit('newHeight', newHeight);
       },
     }
   }

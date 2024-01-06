@@ -1,6 +1,10 @@
 <template>
   <div>
     <Sky :skyColor="skyColor" />
+    <div>
+      <div id="sun"></div>
+      <div id="moon"></div>
+    </div>
     <div class="container" id="intro-container">
       <div class="row">
         <div class="col">
@@ -8,7 +12,7 @@
             <h2 class="header" id="greeting">{{ this.greeting }}</h2>
             <h1 class="header" id="itsme">I'm&nbsp;Jordan,</h1>
             <h2 id="headline">a software engineer and localization specialist in&nbsp;Southern&nbsp;California.</h2>
-            <p id="blurb">Lately I've been using Vue to build frontend interfaces and data flows for web-based space launch display systems, crusading to retire as much legacy code as&nbsp;possible.<br>I also moonlight as an editor of Japanese novels and comics.</p>
+            <p id="blurb">Lately I've been using Vue and Node.js to build full stack applications for space launch, crusading to retire as much legacy code as&nbsp;possible.<br>I also moonlight as an editor of Japanese novels and comics.</p>
             <div class="icon-row">
               <div class="link-wrapper">
                 <a href="https://github.com/o-i-z-y-s" target="_blank">
@@ -50,24 +54,148 @@
         type: String,
         required: true,
         default: "Hello!"
+      },
+      time: {
+        type: Number,
+        required: true,
+        default: 0
       }
     },
     data() {
       return {
-        
+      }
+    },
+    watch: {
+      time: function() {
+        this.getSunMoonPlacement();
       }
     },
     mounted: function() {
-
+      this.getSunMoonPlacement();
     },
     methods: {
+      getSunMoonPlacement() {
+        let dayPercent = Math.trunc((this.time / 43200) * 100);
+        
+        let x = this.getX(dayPercent);
 
+        let y = 0;
+        if (dayPercent >= 100) {
+          y = (100 - (dayPercent - 100));
+        } else { y = dayPercent }
+        y = 100 - this.getY(y);
+        if (y < 3 ) { y += 2 }
+
+        if (dayPercent >= 51 && dayPercent <= 149) { 
+          x -= 2.5;
+          document.getElementById("sun").style.setProperty("--sunVis", 'visible');
+          document.getElementById("sun").style.setProperty("--sunLeft", String(x) + '%');
+          document.getElementById("sun").style.setProperty("--sunTop", String(y) + '%');
+          document.getElementById("moon").style.setProperty("--moonVis", 'hidden');
+        } else if (dayPercent <= 49 || dayPercent >= 151) {
+          x -= 1;
+          document.getElementById("moon").style.setProperty("--moonVis", 'visible');
+          document.getElementById("moon").style.setProperty("--moonLeft", String(x) + '%');
+          document.getElementById("moon").style.setProperty("--moonTop", String(y) + '%');
+          document.getElementById("sun").style.setProperty("--sunVis", 'hidden');
+        } else {
+          document.getElementById("sun").style.setProperty("--sunVis", 'hidden');
+          document.getElementById("moon").style.setProperty("--moonVis", 'hidden');
+        }
+      },
+
+      getY(val) {
+        let scale1Max = 100; let scale1Min = 80;
+        let scale2Max = 80; let scale2Min = 100;
+        if (window.screen.width <= 600) {
+          scale1Min = 90; scale2Max = 90;
+        }
+
+        if (0 <= val && val <= 49) {
+          let nightRange2Max = 45;
+          let nightRange2Min = 0;
+          let percent = (val - nightRange2Min) / (nightRange2Max - nightRange2Min);
+          return percent * (scale2Max - scale2Min) + scale2Min;
+        } else if (50 <= val && val <= 100) {
+          let dayRange1Max = 100;
+          let dayRange1Min = 55;
+          let percent = (val - dayRange1Min) / (dayRange1Max - dayRange1Min);
+          return percent * (scale1Max - scale1Min) + scale1Min;
+        } else if (101 <= val && val <= 150) {
+          let dayRange2Max = 145;
+          let dayRange2Min = 101;
+          let percent = (val - dayRange2Min) / (dayRange2Max - dayRange2Min);
+          return percent * (scale2Max - scale2Min) + scale2Min;
+        } else if (151 <= val && val <= 200) {
+          let nightRange1Max = 200;
+          let nightRange1Min = 155
+          let percent = (val - nightRange1Min) / (nightRange1Max - nightRange1Min);
+          return percent * (scale1Max - scale1Min) + scale1Min;
+        } 
+      },
+      getX(val) {
+        let scale1Max = 50; let scale1Min = 0;
+        let scale2Max = 100; let scale2Min = 50;
+
+        if (0 <= val && val <= 49) {
+          let nightRange2Max = 49;
+          let nightRange2Min = 0;
+          let percent = (val - nightRange2Min) / (nightRange2Max - nightRange2Min);
+          return percent * (scale2Max - scale2Min) + scale2Min;
+        } else if (50 <= val && val <= 100) {
+          let dayRange1Max = 100;
+          let dayRange1Min = 50;
+          let percent = (val - dayRange1Min) / (dayRange1Max - dayRange1Min);
+          return percent * (scale1Max - scale1Min) + scale1Min;
+        } else if (100 <= val && val <= 150) {
+          let dayRange2Max = 150;
+          let dayRange2Min = 100;
+          let percent = (val - dayRange2Min) / (dayRange2Max - dayRange2Min);
+          return percent * (scale2Max - scale2Min) + scale2Min;
+        } else if (151 <= val && val <= 200) {
+          let nightRange1Max = 200;
+          let nightRange1Min = 150;
+          let percent = (val - nightRange1Min) / (nightRange1Max - nightRange1Min);
+          return percent * (scale1Max - scale1Min) + scale1Min;
+        } 
+      }
     }
-
   }
 </script>
 
 <style scoped>
+  #sun::after {
+    z-index: 10;
+    content: '';
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 0 0 50px 15px white;
+    position: absolute;
+    left: var(--sunLeft);
+    top: var(--sunTop);
+    visibility: var(--sunVis);
+  }
+  #moon::after {
+    z-index: 10;
+    content: '';
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    box-shadow: -20px 5px 0px 15px white;
+    filter: drop-shadow(0 0 1rem white);
+    position: absolute;
+    left: var(--moonLeft);
+    top: var(--moonTop);
+    visibility: var(--moonVis);
+  }
   #intro-container {
     position: relative;
     display: flex;
