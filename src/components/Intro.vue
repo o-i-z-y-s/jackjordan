@@ -87,7 +87,7 @@
         if (y < 3 ) { y += 2 }
 
         if (dayPercent >= 51 && dayPercent <= 149) { 
-          x -= 2.5;
+          x -= 5;
           document.getElementById("sun").style.setProperty("--sunVis", 'visible');
           document.getElementById("sun").style.setProperty("--sunLeft", String(x) + '%');
           document.getElementById("sun").style.setProperty("--sunTop", String(y) + '%');

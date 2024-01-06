@@ -132,21 +132,21 @@ export default {
 
     setStyles: function(timeOfDay) {
       if(timeOfDay === "night" || timeOfDay === "late") {
-        document.documentElement.style.setProperty('--pulldownColor', '#096dd9');
+        document.documentElement.style.setProperty('--pulldownColor', '#010b17');
         this.skyColor = this.nightSky;
         this.surfaceColor = this.nightSurface;
         this.oceanColor = this.nightOcean;
         this.rowColor = this.nightRow;
       }
       else if (timeOfDay === "dawn" || timeOfDay === "evening") {
-        document.documentElement.style.setProperty('--pulldownColor', '#010b17');
+        document.documentElement.style.setProperty('--pulldownColor', '#312678');
         this.skyColor = this.dawnduskSky;
         this.surfaceColor = this.dawnduskSurface;
         this.oceanColor = this.dawnduskOcean;
         this.rowColor = this.dawnduskRow;
       }
       else if(timeOfDay === "morning" || timeOfDay === "afternoon") {
-        document.documentElement.style.setProperty('--pulldownColor', '#312678');
+        document.documentElement.style.setProperty('--pulldownColor', '#096dd9');
         this.skyColor = this.daySky;
         this.surfaceColor = this.daySurface;
         this.oceanColor = this.dayOcean;
