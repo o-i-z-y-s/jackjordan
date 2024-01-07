@@ -66,9 +66,7 @@
     },
 
     created () { 
-      window.addEventListener('load', () => {
-        this.updateHeight();
-      });
+      window.addEventListener('load', this.updateHeight);
     },
 
     methods: {

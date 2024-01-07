@@ -20,9 +20,7 @@ import ContentBlock from './ContentBlock.vue';
   export default {
   components: { ContentBlock },
     name: 'About',
-
     props: {
-        
     },
 
     data() {
@@ -34,6 +32,10 @@ import ContentBlock from './ContentBlock.vue';
     mounted: function() {
       this.blockHeight = this.$refs.aboutContent.clientHeight;
       window.addEventListener("resize", this.updateHeight);
+    },
+
+    created () { 
+      window.addEventListener('load', this.updateHeight);
     },
 
     methods: {

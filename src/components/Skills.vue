@@ -1,7 +1,7 @@
 <template>
   <content-block header="Skills" :updatedHeight="blockHeight" @newHeight="onNewHeight">
     <template v-slot:preamble>
-      <div id="skillsText" class="summary" ref="skillsText">A subjective scale where one star indicates basic ability and five denotes advanced.</div>
+      <div id="skillsText" class="summary" ref="skillsText">A subjective assessment of things I've used or done professionally, graded from "basics" to "mastery".</div>
     </template>
     <template v-slot:content>
       <skills-table ref="skillsTable" :handleHeight="handleHeight"/>

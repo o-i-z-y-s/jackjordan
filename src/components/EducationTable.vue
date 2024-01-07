@@ -61,6 +61,10 @@
       this.updateHeight();
     },
 
+    created () { 
+      window.addEventListener('load', this.updateHeight);
+    },
+
     methods: {
       updateHeight() {
         if (this.$refs.educationTable.clientHeight !== -1) {

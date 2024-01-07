@@ -22,7 +22,7 @@
       <div id="main-content" ref="allContent" :style="oceanColor">
         <div :style="'--rowColor:' + rowColor">
           <About id="about" />
-          <!-- <Skills id="skills" /> -->
+          <Skills id="skills" />
           <Experience id="experience" />
           <Education id="education" />
           <Bubbles id="bubbles" />
@@ -37,7 +37,7 @@
 import Intro from './components/Intro.vue'
 import Bubbles from './components/Bubbles.vue'
 import About from './components/About.vue'
-// import Skills from './components/Skills.vue'
+import Skills from './components/Skills.vue'
 import Experience from './components/Experience.vue'
 import Education from './components/Education.vue'
 import Footer from './components/Footer.vue'
@@ -48,7 +48,7 @@ export default {
     Intro,
     Bubbles,
     About,
-    // Skills,
+    Skills,
     Experience,
     Education,
     Footer

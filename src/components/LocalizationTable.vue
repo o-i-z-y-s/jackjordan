@@ -71,6 +71,10 @@
       setTimeout(() => { this.updateHeight(); }, 200); // Apparently animations don't play nice with fetching clientHeight.
     },
 
+    created () { 
+      window.addEventListener('load', this.updateHeight);
+    },
+
     methods: {
       toggleBookList() {
         this.showBookList = !this.showBookList;

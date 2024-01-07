@@ -3,21 +3,21 @@
     "1": {
       "pl": {
         "title": "Programming Languages",
-        "skills": [["JavaScript",4],["Python",4],["Java",3],["Swift",2],["PHP",2],["C#",1]]
+        "skills": [["JavaScript",8],["Python",8],["Java",5],["PHP",3],["Swift",3],["C++",1]]
       },
       "ft": {
         "title": "Frameworks and Tools",
-        "skills": [["Vue.js",4],["Redis",4],["TestComplete",4],["Selenium",4],["SwiftUI",3],["AWS",1]]
+        "skills": [["Vue.js",8],["Redis",7],["TestComplete",7],["Selenium",6],["SwiftUI",3],["Express",1]]
       }
     },
     "2": {
       "etc": {
         "title": "Related Skills",
-        "skills": [["Technical Writing",4],["Automated Testing",4],["Project Management",3],["Team Leadership",3]]
+        "skills": [["Technical Writing",9],["Automated Testing",7],["Project Management",6],["Team Leadership",5]]
       },
       "sl": {
         "title": "Spoken Languages",
-        "skills": [["English",5],["German",4],["Japanese",3],["Spanish",1]]
+        "skills": [["English",10],["German",7],["Japanese",4],["Spanish",1]]
       }
     }
   },
